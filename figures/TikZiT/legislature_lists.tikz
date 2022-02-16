@@ -1,0 +1,40 @@
+\begin{tikzpicture}
+	\begin{pgfonlayer}{nodelayer}
+		\node [style=Simple Label] (0) at (0, 3) {Voting Legislation};
+		\node [style=Simple Label] (1) at (-9, 3) {Proposed Legislation};
+		\node [style=Simple Label] (2) at (9, 3) {In-Effect Legislation};
+		\node [style=3x1 Rectangle] (4) at (-9, 1) {};
+		\node [style=small label] (5) at (-11, 0.5) {Votes:};
+		\node [style=small label] (6) at (-11.25, 1.5) {ID:};
+		\node [style=3x1 Rectangle] (7) at (-9, -1.5) {};
+		\node [style=small label] (8) at (-11, -2) {Votes:};
+		\node [style=small label] (9) at (-11.25, -1) {ID:};
+		\node [style=3x1 Rectangle] (10) at (-9, -4) {};
+		\node [style=small label] (11) at (-11, -4.5) {Votes:};
+		\node [style=small label] (12) at (-11.25, -3.5) {ID:};
+		\node [style=3x1.5 Rectangle] (13) at (0, 0.5) {};
+		\node [style=small label] (15) at (-2, 0.5) {Votes:};
+		\node [style=small label] (16) at (-2.25, 1.5) {ID:};
+		\node [style=small label] (17) at (-2, -0.5) {Text:};
+		\node [style=3x1.5 Rectangle] (18) at (0, -3) {};
+		\node [style=small label] (19) at (-2, -3) {Votes:};
+		\node [style=small label] (20) at (-2.25, -2) {ID:};
+		\node [style=small label] (21) at (-2, -4) {Text:};
+		\node [style=3x1.5 Rectangle] (22) at (0, -6.5) {};
+		\node [style=small label] (23) at (-2, -6.5) {Votes:};
+		\node [style=small label] (24) at (-2.25, -5.5) {ID:};
+		\node [style=small label] (25) at (-2, -7.5) {Text:};
+		\node [style=3x1 Rectangle] (26) at (9, 1) {};
+		\node [style=small label] (27) at (7, 0.5) {Text:};
+		\node [style=small label] (28) at (6.75, 1.5) {ID:};
+		\node [style=3x1 Rectangle] (29) at (9, -1.5) {};
+		\node [style=small label] (30) at (7, -2) {Text:};
+		\node [style=small label] (31) at (6.75, -1) {ID:};
+		\node [style=3x1 Rectangle] (32) at (9, -4) {};
+		\node [style=small label] (33) at (7, -4.5) {Text};
+		\node [style=small label] (34) at (6.75, -3.5) {ID:};
+		\node [style=3x1 Rectangle] (35) at (9, -6.5) {};
+		\node [style=small label] (36) at (7, -7) {Text};
+		\node [style=small label] (37) at (6.75, -6) {ID:};
+	\end{pgfonlayer}
+\end{tikzpicture}

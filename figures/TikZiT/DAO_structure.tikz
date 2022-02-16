@@ -1,0 +1,31 @@
+\begin{tikzpicture}
+	\begin{pgfonlayer}{nodelayer}
+		\node [style=Big Label] (0) at (0, 2) {\Huge\textbf{THE DAO}};
+		\node [style=Simple Label] (1) at (-3.5, -2) {\textbf{Compliance League}};
+		\node [style=Simple Label] (2) at (-10.5, -2) {\textbf{Venture League}};
+		\node [style=Simple Label] (3) at (3.5, -2) {\textbf{Treasury League}};
+		\node [style=Simple Label] (4) at (10.25, -2) {\textbf{Developer League}};
+		\node [style=none] (5) at (5.25, 0) {};
+		\node [style=none] (6) at (2, -0.5) {};
+		\node [style=none] (7) at (-2, -0.5) {};
+		\node [style=none] (8) at (-5.75, 0) {};
+		\node [style=Simple Label] (9) at (-10.5, -4) {Core Team};
+		\node [style=Simple Label] (10) at (-10.5, -5.25) {Partners \& Advisors};
+		\node [style=4x1 Rectangle] (11) at (-10.5, -7) {Vetted Community};
+		\node [style=6x2 Rectangle] (12) at (-10.5, -10.5) {Open Community};
+		\node [style=none] (13) at (-5.75, -4) {5-7 Members};
+		\node [style=none] (14) at (-4.25, -5.25) {$\approx$ 12 Members};
+		\node [style=none] (17) at (-3.5, -7) {$\approx$ 100 Members};
+		\node [style=none] (18) at (-1.25, -10.5) {$>$1000 Members};
+	\end{pgfonlayer}
+	\begin{pgfonlayer}{edgelayer}
+		\draw [in=0, out=90, looseness=0.75] (4) to (5.center);
+		\draw [in=-90, out=-180, looseness=0.50] (5.center) to (0);
+		\draw [in=-90, out=180, looseness=1.25] (6.center) to (0);
+		\draw [in=-90, out=0] (7.center) to (0);
+		\draw [in=-90, out=0, looseness=0.50] (8.center) to (0);
+		\draw [in=180, out=90, looseness=0.75] (2) to (8.center);
+		\draw [in=-180, out=90, looseness=1.25] (1) to (7.center);
+		\draw [in=0, out=90] (3) to (6.center);
+	\end{pgfonlayer}
+\end{tikzpicture}
